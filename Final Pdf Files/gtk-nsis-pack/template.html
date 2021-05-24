@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span class='label'>
+        <span>
+            {{ sample_name }} <br/>
+        </span>
+        <span>
+            {{ sample_weight }} <br/>
+        </span>
+        <span style="float: right; font-size: 3em;">{{ sample_price }}</span><br>
+        <img class='barcode' src='{{label_tools.barcode(sample_id, module_width=1.5, font_size=30)}}' />
+    </span>
+</body>
+</html>

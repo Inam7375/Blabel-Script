@@ -1,0 +1,24 @@
+@page {
+    width: 15mm;
+    height: 7mm;
+    padding: 0.5mm;
+}
+img {
+    height: 2mm;
+    margin-left: 1mm;
+    display: inline-block;
+    vertical-align: middle;
+    image-rendering: pixelated;
+}
+
+.label-space {
+    margin-left: 1mm;
+}
+
+.label {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 2px;
+}
